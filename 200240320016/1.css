@@ -1,0 +1,89 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav {
+    height: 65px;
+    display: flex;
+    padding: 2px;
+
+}
+
+.box {
+    height: 200px;
+    background-image: url('https://picsum.photos/id/1025/1200/800');
+    width: 50%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://picsum.photos/id/1002/1200/800');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.left-nav {
+    flex: 1;
+}
+
+.right-nav {
+    flex: 1;
+}
+
+.my-button {
+
+    color: white;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 900;
+
+    color: darkkhaki;
+}
+
+@media(max-width:760px) {
+
+
+    .box-container {
+        background-image: url('https://picsum.photos/id/1003/1200/800');
+
+    }
+
+    .box {
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: violet;
+        width: 98%;
+        margin: 10px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:360px) and (max-width:460) {
+
+    .logo {
+        font-size: 24px;
+    }
+}
